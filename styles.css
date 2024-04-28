@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Gilroy-Medium, sans-serif !important;
+}
+#header{
+    background-color: #FEC604;
+    width:100%;
+    height:45vh;
+    padding:1.5rem 7rem 1.2rem;
+}
+#heading , #about{
+    padding-top:1rem;
+    color:#69210C;
+    font-size: 1.3rem;
+    font-family:Gilroy-Medium, sans-serif !important;
+}
+#heading{
+    font-size:3rem;
+}
+#batch{
+    padding-top:2rem;
+    display:flex;
+    height:70vh;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Veerbatch , #Arjunabatch{
+    width:80%;
+    height:35vh;
+    background-color: #FFFEE9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.studentimage , .girlimage{
+    width:299px;
+    height:168px;
+    object-fit: cover;
+    border: 10px solid #FEC604;
+    border-radius: 20px;
+}
+.explore {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #F14624;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .explore:hover {background-color: #CE0000}
+  
+  .explore:active {
+    background-color: green;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, .6);
+    transform: translateY(4px) scaleX(1.20) scaleY(1.20);
+  }
+ .content{
+    color:#69210C;
+ }
+  .Veer , .Arjuna{
+    color: #69210C;
+    padding-bottom: 100px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  #teacherOf9{
+    padding:10px 250px;
+    padding-top: 3rem;
+    width:100%;
+    height:100vh;
+    background-color:#FFFEE9;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    place-content: center;
+    gap:100px;
+  }
+  .Teacher{
+    font-size:3rem;
+    text-align: center;
+    color:#69210C;
+    padding:2rem;
+  }
+  .teacher{
+    width:299px;
+    height:168px;
+    object-fit: cover;
+    border:15px solid #FEC604;
+  }
+  .teacherdiv{
+    width:299px;
+    height:300px;
+    background-color: #FEC604;
+  }
+  .teacher:hover{
+    box-shadow: 10px 10px 10px 10px rgb(255, 255, 143,20);
+    transform: translateY(4px) scaleX(1.20) scaleY(1.20);
+  }
+  #topper{
+    width: 100%;
+    height:450px;
+    padding-top:3.5rem;
+    background-color: #FFFEE9;
+  }
+  .topperPoster{
+     font-size: 3rem;
+     text-align: center;
+  }
+  .Vedantu{
+    width:100%;
+    padding-top: 3rem;
+  }
